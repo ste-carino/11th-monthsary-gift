@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our 11th Monthsary ❤️</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #fff0f5;
+  color: #9b4968;
+  text-align: center;
+}
+
+header {
+  padding: 75px 20px;
+  background: linear-gradient(135deg, #ffc5d8, #fff0f5);
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  color: #c0527b;
+}
+
+p {
+  line-height: 1.8;
+}
+
+button {
+  background: #e77da1;
+  color: white;
+  border: none;
+  padding: 13px 22px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 8px;
+}
+
+button:hover {
+  background: #c0527b;
+}
+
+section {
+  padding: 45px 20px;
+}
+
+.card {
+  background: white;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px #e8b4c5;
+}
+
+.reasons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  max-width: 750px;
+  margin: auto;
+}
+
+.reason {
+  background: white;
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.gallery img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background: #ffc5d8;
+  padding: 25px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Happy 11th Monthsary! ❤️</h1>
+  <p>11 months of memories, laughter, and love.</p>
+  <p>A little surprise made just for you.</p>
+  <button onclick="document.getElementById('letter').scrollIntoView({behavior:'smooth'})">
+    Open Your Surprise 💌
+  </button>
+</header>
+
+<section id="letter">
+  <h2>💌 A Letter For You</h2>
+  <div class="card">
+    <p>
+      To my favorite person,
+    </p>
+    <p>
+      Happy 11th monthsary! I just want to remind you
+      how thankful I am to have you in my life.
+      Thank you for every laugh, every memory,
+      and every little moment we share.
+    </p>
+    <p>
+      These 11 months have been special to me.
+      I hope we continue making beautiful memories
+      together.
+    </p>
+    <p>With love, ❤️</p>
+    <p><b>Your favorite person</b></p>
+  </div>
+</section>
+
+<section>
+  <h2>11 Reasons Why I Love You ❤️</h2>
+  <div class="reasons">
+    <div class="reason">01. Your smile</div>
+    <div class="reason">02. Your kindness</div>
+    <div class="reason">03. Your laugh</div>
+    <div class="reason">04. Your personality</div>
+    <div class="reason">05. Your patience</div>
+    <div class="reason">06. Your support</div>
+    <div class="reason">07. Your silly jokes</div>
+    <div class="reason">08. Your understanding</div>
+    <div class="reason">09. Our memories</div>
+    <div class="reason">10. The way you care</div>
+    <div class="reason">11. Simply because you're you</div>
+  </div>
+</section>
+
+<section>
+  <h2>📸 Our Little Memories</h2>
+  <p>Every picture tells a story.</p>
+  <div class="gallery">
+    <img src="photo1.jpg" alt="Our memory 1">
+    <img src="photo2.jpg" alt="Our memory 2">
+    <img src="photo3.jpg" alt="Our memory 3">
+    <img src="photo4.jpg" alt="Our memory 4">
+  </div>
+  <p><small>Replace these pictures with your favorite photos together.</small></p>
+</section>
+
+<section>
+  <h2>🎁 One More Surprise</h2>
+  <div class="card">
+    <p>There's something I want you to know...</p>
+    <button onclick="document.getElementById('secret').classList.toggle('hidden')">
+      Click for a Secret ❤️
+    </button>
+    <div id="secret" class="hidden">
+      <h2>You're My Favorite Person! 💗</h2>
+      <p>
+        Thank you for being part of my story.
+        Here's to more months, more memories,
+        and more reasons to smile together.
+      </p>
+      <p>Happy 11th Monthsary! ❤️</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🎵 Our Little Soundtrack</h2>
+  <p>Play our special song while exploring this website.</p>
+  <audio id="music" controls>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <p><small>Add your own permitted music file named music.mp3.</small></p>
+</section>
+
+<footer>
+  Made with ❤️, just for you.
+  <p>11 months and counting...</p>
+</footer>
+
+</body>
+</html>
